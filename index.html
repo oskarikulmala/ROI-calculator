@@ -1,8 +1,50 @@
 <html>
-  <head>
-  </head>
-  <body>
-    <form name=”calculator”>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta hhtp-equiv="X-UA-Compatible" content="IE-Edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>ROI-laskuri</h2>
+    <form>
+      <label for="spend">Kampanjan kokonaiskulut (€)</label>
+      <input type="text" id="spend" class="form-control" placeholder="20000">
+      <label for="visitors">Verkkosivuvierailjoiden määrä (kpl)</label>
+      <input type="text" id="visitors" class="form-control" placeholder="20000">
+      <label for="price-per-visitor">Hinta per kävijä (€)</label>
+      <input disabled type="text" id="price-per-visitor" class="form-control" placeholder="1">
+      <label for="leads-calculated-percent">Kuinka monta % näistä on liidejä?</label>
+      <input type="text" class="form-control" id="leads-calculated-percent" placeholder="20" >
+      <label for="leads-calculated-amount">Kuinka monta kappaletta näistä on liidejä?</label>
+      <input disabled type="text" class="form-control" id="leads-calculated-amount" placeholder="4000" >
+      <label for="sales-opportunities-percent">Myyntimahdollisuuksia eli opportunities (%)</label>
+      <input type="text" class="form-control" id="sales-opportunities-percent" placeholder="5" >
+      <label for="sales-opportunities-amount">Myyntimahdollisuuksia eli opportunities (kpl)</label>
+      <input disabled type="text" class="form-control" id="sales-opportunities-amount" placeholder="200" >
+      <label for="sales-actual-percent">Kuinka monta % näistä oikeasti ostaa?</label>
+      <input type="text" class="form-control" id="sales-actual-percent" placeholder="5" >
+      <label for="sales-actual-amount">Kuinka moni näistä oikeasti ostaa? (kpl)</label>
+      <input disabled type="text" class="form-control" id="sales-actual-amount" placeholder="200" >
+      <label for="average-sale">Palvelun tai tuotteen keskikaupan hinta (€)</label>
+      <input type="text" class="form-control" id="average-sale" placeholder="1500" >
+      <label for="total-sale">KOKONAISMYYNTI (€)</label>
+      <input disabled type="text" class="form-control" id="total-sale" placeholder="15000" >
+      <label for="revenue">TUOTTO (€)</label>
+      <input disabled type="text" class="form-control" id="revenue" placeholder="-5000" >
+      <label for="roi">ROI (%)</label>
+      <input disabled type="text" class="form-control" id="roi" placeholder="-25" >
     </form>
-  </body>
+  </div>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="calc.js"></script>
+</body>
+
 </html>
