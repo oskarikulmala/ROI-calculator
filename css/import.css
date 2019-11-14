@@ -1,0 +1,401 @@
+  
+  /*Custom Nortal CSS*/
+
+  .std-pad-top {padding-top:50px;}
+  .std-pad-bottom {padding-bottom:50px;}
+  .row-centered {text-align:center;}
+  .col-centered {display:inline-block;float:none;text-align:left;margin-right:-4px;vertical-align: middle;}
+  .mobile-logo-padding {padding-bottom:20px;}
+  .text-center {text-align:center;}
+
+  /*END of custom CSS*/
+
+  /* COLORS
+   * Magenta         #E0006D
+   * Yellow          #FFCE44
+   * Grey            #3C3C3B;
+   * Grey - Dark     #343231;
+   * Grey - Light    #E2E1E1;
+   * Magenta - Dark  #9d1843;
+   */
+
+  * {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background: #fff;
+    margin: 0;
+    color: #343231;
+  }
+
+  h1, h2 {
+    font-weight: 700;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+
+  p {
+    padding: 0;
+    margin-bottom: 1.8333em;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+
+  ul, ol {
+    margin: 0 0 1.8333em 2em;
+    text-align: left;
+  }
+  ul li, ol li {
+    margin-bottom: .5em;
+  }
+
+  hr {
+    background: url(https://info.markkinointirouta.fi/rs/556-ERD-282/images/divider-magenta.svg) no-repeat scroll center center / auto 100% transparent;
+    border: none;
+    height: 9px;
+    margin: 1.8333em auto;
+  }
+  hr.grey {
+    background-image: url(https://info.markkinointirouta.fi/rs/556-ERD-282/images/divider-grey.svg);
+  }
+  hr.yellow {
+    background-image: url(https://info.markkinointirouta.fi/rs/556-ERD-282/images/divider-yellow.svg);
+  }
+
+html,
+body {
+	font-size: 16px;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter img, .aligncenter  {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {margin-top: 50px; margin-bottom: 50px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	-webkit-transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-out;
+	-o-transition: all 250ms ease-out;
+	-ms-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+	color: #E0006D;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color:#9d1843;
+}
+
+/* FORM CONFIGURATION */
+.mktoForm{width:100%!important;padding:0!important;color:inherit!important}.mktoForm *,.mktoForm ::after,.mktoForm ::before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.mktoForm input:not([type=checkbox]):not([type=radio]),.mktoForm select.mktoField,.mktoForm textarea.mktoField{background:#fff;border:2px solid #e0006d;padding:10px!important;font-size:16px;width:100%!important;box-shadow:none!important;height:auto!important;-webkit-border-radius:0!important;-moz-border-radius:0!important;border-radius:0!important}.mktoForm input:not([type=checkbox]):not([type=radio]):focus,.mktoForm select.mktoField:focus,.mktoForm textarea.mktoField:focus{border:2px solid #ffce44;box-shadow:none;outline:0}.mktoForm style{display:none}.mktoForm *{font-family:Poppins,sans-serif;font-size:16px;line-height:1.55em}.mktoForm .mktoFieldWrap{width:100%}.mktoForm .mktoFormRow{display:block}.mktoForm .mktoHasWidth{width:auto!important}.mktoForm .mktoGutter,.mktoForm .mktoOffset{height:0}.mktoForm fieldset{border:none;padding:0!important}.mktoForm fieldset legend:empty{display:none}.mktoForm fieldset legend{display:table;padding:0!important;font-size:1.5em;font-weight:700;text-align:center;margin:0 0 1.25em;color:#e0006d!important;white-space:normal;width:100%}@media (max-width:480px){.mktoForm fieldset legend{font-size:1.1em}}.mktoForm .mktoFormCol{width:100%;margin-bottom:0!important}.mktoForm h3{font-size:1.5em;font-weight:700;margin:0 auto 1em}.mktoForm .mktoLabel{width:100%!important;line-height:1.55em!important;font-weight:500!important}.mktoForm .mktoLabel .mktoAsterix{display:none}@media all and (max-width:480px){.mktoForm .mktoLabel{width:100%!important;line-height:1.55em!important;margin-top:1em;font-size:14px}}.mktoForm select.mktoField{padding:10px}.mktoForm .mktoCheckboxList{padding-left:0;padding-right:0}.mktoForm input[type=checkbox]{margin:.4rem 0 0 .1rem;opacity:0}.mktoForm input[type=checkbox]+label{position:relative}.mktoForm input[type=checkbox]+label:before{content:'';display:inline-block;width:18px;height:18px;font-size:18px;border:2px solid #e0006d;line-height:21px;position:absolute;left:-30px;top:3px}.mktoForm input[type=checkbox]:checked+label::after{content:''!important;background:#e0006d;position:absolute;display:inline-block;width:8px;height:8px;top:8px;left:-25px}.mktoForm .mktoCheckboxList{width:100%!important;padding-bottom:0}.mktoForm .mktoCheckboxList label{width:auto;max-width:100%;margin-left:30px;line-height:24px;margin-bottom:10px}.mktoForm .mktoCheckboxList>label[for=markkinointilupa]{font-size:.8em!important;position:relative;top:1.1rem;margin:0 0 -1rem 2.3rem!important;width:auto!important;line-height:1.2!important}@media (min-width:500px){.mktoForm .mktoCheckboxList>label[for=markkinointilupa]{top:1rem;margin:0 0 -.5rem 2.3rem!important}}.mktoForm .mktoFieldWrap>label[for=hasTekoseteli]{position:relative;top:1.9rem;width:auto!important;left:2.3rem;margin-top:-1rem}.mktoForm .mktoRadioList{display:inline-block;width:100%!important}.mktoForm .mktoRadioList input[type=radio]{width:1.5em;height:1.5em;margin:.1em 0 0;opacity:0;font-size:1em}.mktoForm .mktoRadioList input[type=radio]+label{font-size:1em;font-weight:700;margin-left:2em;margin-bottom:1.5rem;position:relative;line-height:1.328}.mktoForm .mktoRadioList input[type=radio]+label::before{content:'';display:inline-block;vertical-align:middle;box-shadow:none;border:2px solid #e0006d;width:1.5em;height:1.5em;margin-left:-2em;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;margin-right:.5em}.mktoForm .mktoRadioList input[type=radio]:checked+label::before{background:0 0}.mktoForm .mktoRadioList input[type=radio]:checked+label::after{content:'';width:.8333em;height:.8333em;-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;background:#e0006d;position:absolute;top:.35em;left:-1.68em}.mktoForm .mktoButtonRow{width:100%;text-align:center;margin-top:2rem}.mktoForm span.mktoButtonWrap{margin-left:0!important;display:inline-block}.mktoForm .mktoFormRow .mktoError{left:0;bottom:auto!important;top:100%;right:auto!important}.mktoForm .mktoFormRow .mktoError .mktoErrorArrow{border:none;background-color:#9d1843}.mktoForm .mktoFormRow .mktoError .mktoErrorMsg{color:#FFF;background:#9d1843;text-shadow:none;font-weight:400;font-size:.8em;max-width:100%;display:inline-block;padding:8px 12px 6px;-webkit-border-radius:0;border-radius:0;border:none;box-shadow:0 0 10px rgba(0,0,0,.15)}@media all and (max-width:480px){.mktoForm .mktoForm label{font-size:13px}}.mktoForm label[for=markkinointilupa],.mktoForm label[for=marketingOptin],.mktoForm select#marketingOptin,.mktoForm select#markkinointilupa{float:none;display:inline-block;vertical-align:middle}.mktoForm label[for=markkinointilupa],.mktoForm label[for=marketingOptin]{font-size:.8em;margin:0 0 .5rem}@media (min-width:1270px){.mktoForm label[for=markkinointilupa],.mktoForm label[for=marketingOptin]{width:calc(98% - 6.5rem)!important;margin:0 2% 0 0}}.mktoForm select#marketingOptin,.mktoForm select#markkinointilupa{width:6.5rem!important;font-size:12px}form.negative input:not([type=checkbox]):not([type=radio]),form.negative select,form.negative textarea{border-color:#fff!important}form.negative input:not([type=checkbox]):not([type=radio])::-webkit-input-placeholder,form.negative select::-webkit-input-placeholder,form.negative textarea::-webkit-input-placeholder{color:rgba(255,255,255,.8)}form.negative input:not([type=checkbox]):not([type=radio])::-moz-placeholder,form.negative select::-moz-placeholder,form.negative textarea::-moz-placeholder{color:rgba(255,255,255,.8)}form.negative input:not([type=checkbox]):not([type=radio]):-ms-input-placeholder,form.negative select:-ms-input-placeholder,form.negative textarea:-ms-input-placeholder{color:rgba(255,255,255,.8)}form.negative input:not([type=checkbox]):not([type=radio]):-moz-placeholder,form.negative select:-moz-placeholder,form.negative textarea:-moz-placeholder{color:rgba(255,255,255,.8)}form.negative input[type=checkbox]+label::before,form.negative input[type=radio]+label::before{border-color:#fff!important}form.negative input[type=checkbox]:checked+label::after,form.negative input[type=radio]:checked+label::after{background:#fff!important}form.negative select option{background:#3c3c3b}
+
+/* General Configuration */
+.btn,
+.mktoForm .mktoButton {
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: -.025em;
+  text-transform: uppercase;
+  color: #343231;
+  background-image: none;
+  background: #ffce44;
+  border: none;
+  cursor: pointer;
+  line-height: 1.15;
+  position: relative;
+  font-size: 1.4em;
+  padding: .55em 3em .45em 1.8333em !important;
+  -webkit-border-radius: .15em 0 0 .15em !important;
+  -moz-border-radius: .15em 0 0 .15em !important;
+  border-radius: .15em 0 0 .15em !important;
+  -webkit-clip-path: polygon(0 0, calc(100% - 2.115em) 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, calc(100% - 2.115em) 0, 100% 100%, 0% 100%);
+}
+  .btn.white {
+    background: #FFF;
+  }
+
+/* HEADER SECTION */
+#h {
+  display:none;
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+  text-align:center;
+  width: 100%;
+  background-color:#FFCE44;
+  background-attachment: scroll;
+  background-position: center center;
+  background-image: none;
+  background-size: cover;
+  color: #3C3C3B;
+}
+
+#portfolio {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: #f2f2f2;
+}
+.cbp-item-wrapper {
+    background: #2f2f2f;
+}
+.cbp-item-wrapper a img {
+    display: block;
+    width: 100%;
+    background-image: center center;
+    height: auto;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.cbp-item-wrapper a:hover img {
+    opacity: 0.8;
+}
+
+/* CTA SECTION */
+#cta {
+  background-color: #E0006D;
+  background-attachment: scroll;
+  background-position: center center;
+  background-image: none;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom:100px;
+  text-align:center;
+  width: 100%;
+  color: #FFFFFF;
+
+}
+
+#cta h2 {
+	color: #FFFFFF;
+}
+
+/* FOOTER */
+  .pre-footer .mktoSnippet h4 {
+    margin-top: 4rem;
+  }
+
+/* OVERFLOW */
+
+.of {
+	overflow: hidden;
+}
+  .corner {
+    background: url('https://info.markkinointirouta.fi/rs/556-ERD-282/images/routa-2018-corner.png') no-repeat scroll top right / 100% auto transparent;
+    width: 260px;
+    max-width: 25%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  header {
+    text-align: center;
+    padding: 1.25rem 0;
+  }
+  .header-logo {
+    display: inline-block;
+    max-width: 10%;
+    min-width: 2rem;
+  }
+
+  #footer {
+    display: block;
+    background: #3C3C3B;
+    padding: 3rem 0;
+    margin-top: 4rem;
+  }
+  #footer * {
+    color: #FFF;
+  }
+  #footer .nav {
+    margin-left: 0;
+  }
+  #footer .nav li {
+    margin-bottom: .85em;
+  }
+  #footer .nav a {
+    display: inline-block;
+    padding: 0;
+    font-weight: 700;
+  }
+  #footer h5 {
+    font-size: 1.05em;
+  }
+  #footer h5 + .nav a {
+    font-size: .9em;
+    font-weight: 400;
+  }
+  #footer a:hover {
+    background: none;
+    color: #FFCE44;
+  }
+  #footer div[class^="col-"] > *:first-child {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .footer-legal {
+    margin-top: 2rem;
+  }
+  .footer .social-links {
+    margin-bottom: 1.8333em;
+  }
+img{
+	max-width:100%;
+	height:auto;
+}
+  section, footer {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .container-fluid {
+    max-width: 1440px;
+  }
+.intro-section{
+	display:block;
+}
+.form-section{
+	display:block;
+	background:#FFF;
+	padding:20px 0;
+}
+.usp-section{
+	display:none;
+}
+.section5{
+	display:none;
+}
+.section6{
+	display:none;
+}
+.section7{
+	display:none;
+}
+.footer{
+	display:block;
+}
+ #section8Form{
+	max-width:350px;
+	width:100% !important;
+	margin:0 auto;
+}
+#portfolio::after, #portfolio::before{
+	content:"";
+	display:block;
+	clear:both;
+}
+.padd{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+/* MEDIA QUERIES */
+  @media (min-width: 30em) {
+
+    /* layout */
+    header {
+      padding: 1.9rem 0;
+    }
+    /* elements */
+
+    /* Typography */
+
+    h1, h2 {
+      font-size: 2em;
+    }
+  }
+  @media (max-width: 767px) {
+    #footer div[class^="col-"] {
+      text-align: center;
+    }
+    .footer-2 .nav li {
+      display: inline-block;
+      margin: 0 .425em .85em;
+    }
+    .mobile-img-size {
+      max-width:100px;
+    }
+  }
+  @media (min-width: 48em) {
+
+    /* layout */
+    header {
+      padding: 2.2rem 0;
+    }
+
+    /* elements */
+
+    /* Typography */
+
+    h1, h2 {
+      font-size: 2.3em;
+    }
+  }
+  @media (max-width: 991px) {
+    #footer div[class^="col-"] {
+      margin-bottom: 2rem;
+    }
+    .footer-1 {
+      text-align: center;
+    }
+    .footer-logo {
+      display: inline-block;
+      width: 60px;
+    }
+  }
+
+  @media (min-width: 992px) {
+
+    /* layout */
+    header {
+      padding: 3.3rem 0;
+    }
+
+    /* elements */
+
+    /* Typography */
+
+    h1, h2 {
+      font-size: 2.5em;
+    }
+  }

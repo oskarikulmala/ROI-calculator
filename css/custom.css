@@ -1,3 +1,30 @@
-body {
-  
+body {
+  background: #666;
+}
+.panel-default > .panel-heading {
+  border: 0;
+  background: #000;
+  color: #fff;
+  border-radius: 0;
+  padding: 10px;
+}
+
+#accordion .spacer{
+  border: 0;
+  padding: 10px;
+}
+
+.mktoForm .mktoLabel {
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+
+.panel-group .panel {
+  margin: 0 6px 19px;
+}
+
+#accordion .bottom-spacer {
+  padding: 0 10px 10px;
+  position: relative;
+  top: -12px;
 }
