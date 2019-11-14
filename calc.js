@@ -1,4 +1,5 @@
-$(document).ready(function() {
+var $ = jQuery;
+jQuery(document).ready(function() {
   $('#spend, #visitors, #price-per-visitor, #leads-calculated-percent, #sales-opportunities-percent, #sales-actual-percent, #average-sale').change(function() {
 
     // Defaults.
