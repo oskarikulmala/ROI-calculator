@@ -1,6 +1,11 @@
 body {
   background: #666;
 }
+
+h2 {
+  text-align: center;
+
+}
 .panel-default > .panel-heading {
   border: 0;
   background: #000;
@@ -27,4 +32,21 @@ body {
   padding: 0 10px 10px;
   position: relative;
   top: -12px;
+}
+
+@media only screen and (min-width: 720px) {
+  .flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+  }
+
+  #accordion .flex-row {
+    margin: 0 auto;
+  }
+
+  .col-4 {
+    max-width: 32%;
+  }
 }
