@@ -34,11 +34,21 @@ h2 {
   top: -12px;
 }
 
+#accordion .no-border {
+  border: 0;
+  padding-left: 0 !important;
+  padding-top: 4px !important;
+}
+
+#accordion h3 {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 720px) {
   .flex-row {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     max-width: 1200px;
   }
 
